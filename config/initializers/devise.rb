@@ -1,5 +1,5 @@
 require 'devise/strategies/database_authenticatable'
-config.secret_key = 'e34e4eeb7a8bc61e48e5b83d32e905aa92472ef1f9f2c1371da4a670d336dd25e415961238747696d16bbe4bd00aa02975642d1d6c14bbde16a04de0d02663b9'
+
 # Monkey-patch the DatabaseAuthenticatable.
 #
 # The default DatabaseAuthenticatable takes only into account the user
@@ -243,6 +243,7 @@ Devise.setup do |config|
   # Explorer requests.
   # config.navigational_formats = [:"*/*", "*/*", :html]
 
+  config.secret_key = 'e34e4eeb7a8bc61e48e5b83d32e905aa92472ef1f9f2c1371da4a670d336dd25e415961238747696d16bbe4bd00aa02975642d1d6c14bbde16a04de0d02663b9'
   # The default HTTP method used to sign out a resource. Default is :delete.
   config.sign_out_via = :delete
 
