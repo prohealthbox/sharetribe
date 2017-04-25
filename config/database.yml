@@ -21,17 +21,17 @@ staging:
     adapter: mysql2
     database: sharetribe_staging
     encoding: utf8
-    username: # ADD DATABASE USERNAME
+    username: ba3e974d1be8d8
     password: # ADD DATABASE PASSWORD
     host: localhost
 
 production:
     adapter: mysql2
-    database: sharetribe_production
+    database: heroku_6ffc90f1f413544
     encoding: utf8
-    username: # ADD DATABASE USERNAME
-    password: # ADD DATABASE PASSWORD
-    host: localhost
+    username: ba3e974d1be8d8
+    password: 6fbf9b3e
+    host: mysql2://us-cdbr-iron-east-03.cleardb.net/
 
 cucumber:
   <<: *test
