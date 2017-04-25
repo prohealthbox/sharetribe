@@ -18,4 +18,5 @@ staging:
   # Add local `staging` environment configuration overrides here
 
 production:
+secret_key_base: 7f2b806b9abbd282d5e254c984e518db582dcd3f8f4cfa53488bc7ca28b3ea5d3a5fb974834b2835457f5854cbc5ff9d326e9cb5dc2eafaf80c0f813521d9ae9
   # Add local `production` environment configuration overrides here
